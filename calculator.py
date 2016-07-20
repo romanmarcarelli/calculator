@@ -10,3 +10,7 @@ def div(x, y):
 def sub(x, y):
 	return x-y
 
+def exp(x):
+	return 2.718281828**x
+
+
