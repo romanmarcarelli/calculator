@@ -13,4 +13,6 @@ def sub(x, y):
 def exp(x):
 	return 2.718281828**x
 
+def criticalPoly(a, b):
+	return div(-b, 2*a)
 
