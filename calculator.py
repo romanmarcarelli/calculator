@@ -10,3 +10,5 @@ def div(x, y):
 def sub(x, y):
 	return x-y
 
+def criticalPoly(a, b):
+	return div(-b, 2*a)
