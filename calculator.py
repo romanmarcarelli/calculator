@@ -21,6 +21,6 @@ def fact(x):
 	else: return x*fact(x-1)
 	
 def modulo(x, y):
-	divided = x/y
-	multiply = y*divided
-	return abs(x-multiply)
+	divided = div(x,y)
+	multiply = mult(y, divided)
+	return abs((sub(x, multiply)))
