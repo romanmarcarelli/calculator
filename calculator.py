@@ -16,6 +16,11 @@ def exp(x):
 def criticalPoly(a, b):
 	return div(-b, 2*a)
 
-def fact(x)
+def fact(x):
 	if x==0: return 1
 	else: return x*fact(x-1)
+	
+def modulo(x, y):
+	divided = x/y
+	multiply = mult(y, divided)
+	return abs((sub(x, multiply)))
